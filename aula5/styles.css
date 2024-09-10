@@ -69,13 +69,18 @@ section button:hover {
     border-radius: 0.6rem; /* Borda arredondada */
 }
 
-/* Estiliza cada item de resultado */
 .item-resultado {
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 100%; /* Garantir que ocupe toda a largura possível */
+    max-width: 60rem; /* Definir uma largura máxima para evitar que o conteúdo fique muito largo */
+    height: 15rem; /* Definir uma altura fixa para uniformizar os itens */
+    display: flex; /* Para permitir alinhamento do conteúdo interno */
+    flex-direction: column; /* Alinhamento dos elementos internos em coluna */
+    justify-content: space-between; /* Distribui o conteúdo de forma uniforme */
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */

@@ -16,5 +16,17 @@ let dados = [
         avaliacao: "5 estrelas. História extremamente envolvente, belos visuais, trama interessante. Anime main stream de alta qualidade.",
         link: "https://www.crunchyroll.com/pt-br/series/GRDV0019R/jujutsu-kaisen",
         tags: " ação acao açao acão fantasia terror leve"
+    },
+    {
+        titulo: "Demon Slayer",
+        avaliacao: "A assistir",
+        link: "https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba",
+        tags: "nao assistido tbw kimetsu no yaiba tanjirou"
+    },
+    {
+        titulo: "Tower of God",
+        avaliacao: "A assistir",
+        link: "https://www.crunchyroll.com/pt-br/series/G6J0G49DR/tower-of-god",
+        tags: "nao assistido tbw"
     }
 ];

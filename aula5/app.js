@@ -42,11 +42,11 @@ function search() {
         `;
       }
 
-      // Se a busca não está no banco de dados
-      if (!resultados) {
-        resultados = "Busca não encontrada.";
-      }
+    }
 
+    // Se a busca não está no banco de dados
+    if (!resultados) {
+      resultados = "Busca não encontrada.";
     }
   
     // Atribui o HTML construído à seção de resultados
